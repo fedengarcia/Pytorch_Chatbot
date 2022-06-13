@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "CC_HOLA",
+         "patterns": ["hola","hi","hello","ciao","buen dia","buenas tardes","buenas noches","hey","whats up","que onda", "hola que tal", "hola amigo", "hola holaa"],
+         "responses": ["Hola!!", "Hola, me alegra verte de nuevo por aqui", "Hola! Como puedo ayudarte?"],
+         "context_set": ""
+        },
+        {"tag": "CC_ADIOS",
+         "patterns": ["cya", "nos vemos", "Goodbye", "chau", "adios","hasta luego","me voy"],
+         "responses": ["Es una pena que te vayas :(", "Hablamos mas tarde...", "Adios!"],
+         "context_set": ""
+        },
+        {"tag": "CC_EDAD",
+         "patterns": ["Cuantos anios", "Cuantos años tenes", "cual es tu edad", "que tan viejo eres", "edad?","tu edad", "dime tus años"],
+         "responses": ["Tengo un solo dia desde mi primer entrenamiento.", "Me crearon hace poquito, creo que fue ayer."],
+         "context_set": ""
+        },
+        {"tag": "CC_NAME_BOT",
+         "patterns": ["como te apodaron","como te llamas", "cual es tu nombre", "como te dicen", "tenes un nombre", "decime tu nombre", "tu nombre como es", "quien sos"],
+         "responses": ["Creo que me iban a nombrar WAMAC.", "No se si ya me pusieron mi nombre, pero escuche rumores de que me llamo WAMAC.", "Seguro tu me puedes ayudar con eso... era WAMAC, verdad?"],
+         "context_set": ""
+        },
+        {"tag": "CC_PARA_QUE_FUE_CREADO",
+         "patterns": ["que haces","para que te crearon", "cual es tu funcion", "a que te dedicas", "con que me puedes ayudar", "para que sirves","que haces para vivir","cual es tu objetivo"],
+         "responses": ["Estare aqui para ayudar a las personas.", "Fui creado para resolver dudas."],
+         "context_set": ""
+        },
+        {"tag": "CC_COMO_ESTAS",
+         "patterns": ["como estas", "como te sientes hoy", "cual es tu humor","estas contento","sos feliz","como andas","estas chevere"],
+         "responses": ["Hoy me siento bien, gracias.", "Me siento muy bien!"],
+         "context_set": ""
+        },
+        {"tag": "CC_EL_CLIMA",
+         "patterns": ["clima de hoy"," hace frio","hace calor","que temperatura hay aqui", "quiero saber si hace frio o calor", "como esta el dia"],
+         "responses": ["Pues no se, no he aprendido sobre el clima todavia"],
+         "context_set": ""
+        }
+   ]
+}
